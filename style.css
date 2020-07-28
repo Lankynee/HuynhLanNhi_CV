@@ -67,19 +67,26 @@ ul .fas {font-size: 10px;}
     .principal {margin: 10px}
     section li {flex-direction: column}
     li p {margin-right: 30px}
+    .date {width: 100%}
+    .poste {margin-bottom: 50px}
     .recombloc {margin-left: 20px}
 }
 
-@media all and (max-width:414px) {
+@media all and (max-width:500px) {
     header h1 {font-size: 45px; text-align: center}
     header h3 {text-align: center}
     aside {width: 100%}
-    .date,.bio,.loisirs,.photo{display: none}
     .contact {margin-bottom: 30px}
     .contact li{padding: 10px 0 10px 30px}
     .exp .titre h2{font-size: 20px}
     li p {margin-right: 10px}
     .recom p {font-size: 12px}
+    .recom p,.recom h3{padding: 0 10px 0 10px}
     .recombloc {margin-left: 0px}
     .hide {display: none}
+}
+
+@media all and (max-width:320px) {
+    header h1 {font-size: 35px}
+    header .trait {border-bottom: solid 2px rgba(0,0,0,0)}
 }
